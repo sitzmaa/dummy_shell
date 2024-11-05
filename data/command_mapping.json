@@ -1,5 +1,310 @@
-{
-    "list files": "ls",
-    "current directory": "pwd",
-    "create a folder named": "mkdir"
-}
+[
+    {
+        "input": "show me the files in this directory",
+        "output": "ls"
+    },
+    {
+        "input": "what's my current directory",
+        "output": "pwd"
+    },
+    {
+        "input": "list all contents of this directory, including hidden files",
+        "output": "ls -a"
+    },
+    {
+        "input": "get a detailed list of files in this directory",
+        "output": "ls -l"
+    },
+    {
+        "input": "make a new folder called workspace",
+        "output": "mkdir workspace"
+    },
+    {
+        "input": "remove the file named document.txt",
+        "output": "rm document.txt"
+    },
+    {
+        "input": "move up one directory",
+        "output": "cd .."
+    },
+    {
+        "input": "check how much space is left on my disk",
+        "output": "df -h"
+    },
+    {
+        "input": "list all active processes",
+        "output": "ps aux"
+    },
+    {
+        "input": "copy notes.txt to my home directory",
+        "output": "cp notes.txt ~/"
+    },
+    {
+        "input": "rename report.txt to final_report.txt",
+        "output": "mv report.txt final_report.txt"
+    },
+    {
+        "input": "create an empty file called log.txt",
+        "output": "touch log.txt"
+    },
+    {
+        "input": "display the contents of file.txt",
+        "output": "cat file.txt"
+    },
+    {
+        "input": "open my file in nano",
+        "output": "nano myfile.txt"
+    },
+    {
+        "input": "edit config.json in vim",
+        "output": "vim config.json"
+    },
+    {
+        "input": "look for 'warning' in server.log",
+        "output": "grep 'warning' server.log"
+    },
+    {
+        "input": "download the data file from this link",
+        "output": "wget <URL>"
+    },
+    {
+        "input": "ping google.com to check my connection",
+        "output": "ping google.com"
+    },
+    {
+        "input": "jump to the root directory",
+        "output": "cd /"
+    },
+    {
+        "input": "show all environment variables",
+        "output": "printenv"
+    },
+    {
+        "input": "search for all .mp3 files here",
+        "output": "find . -name '*.mp3'"
+    },
+    {
+        "input": "find files modified in the last 24 hours",
+        "output": "find . -mtime -1"
+    },
+    {
+        "input": "monitor my system memory usage",
+        "output": "free -h"
+    },
+    {
+        "input": "print today's date and time",
+        "output": "date"
+    },
+    {
+        "input": "list directories only",
+        "output": "ls -d */"
+    },
+    {
+        "input": "show my network configuration",
+        "output": "ifconfig"
+    },
+    {
+        "input": "display the last 20 lines of errors.log",
+        "output": "tail -n 20 errors.log"
+    },
+    {
+        "input": "show me the first 5 lines of notes.txt",
+        "output": "head -n 5 notes.txt"
+    },
+    {
+        "input": "get disk usage for all folders",
+        "output": "du -h --max-depth=1"
+    },
+    {
+        "input": "clear my screen",
+        "output": "clear"
+    },
+    {
+        "input": "access the manual for the ls command",
+        "output": "man ls"
+    },
+    {
+        "input": "show uptime info",
+        "output": "uptime"
+    },
+    {
+        "input": "give execute permission to script.sh",
+        "output": "chmod +x script.sh"
+    },
+    {
+        "input": "remove read permission from secret.txt",
+        "output": "chmod -r secret.txt"
+    },
+    {
+        "input": "move to my downloads folder",
+        "output": "cd ~/Downloads"
+    },
+    {
+        "input": "change to the desktop directory",
+        "output": "cd ~/Desktop"
+    },
+    {
+        "input": "show real-time CPU usage",
+        "output": "top"
+    },
+    {
+        "input": "shut down the machine now",
+        "output": "sudo shutdown now"
+    },
+    {
+        "input": "restart the system",
+        "output": "sudo reboot"
+    },
+    {
+        "input": "search 'failed' in auth.log",
+        "output": "grep 'failed' /var/log/auth.log"
+    },
+    {
+        "input": "compress the entire projects folder",
+        "output": "tar -cvf projects.tar projects"
+    },
+    {
+        "input": "unpack backup.tar.gz",
+        "output": "tar -xvzf backup.tar.gz"
+    },
+    {
+        "input": "create a link to data.txt called data_link",
+        "output": "ln -s data.txt data_link"
+    },
+    {
+        "input": "show all listening network ports",
+        "output": "netstat -tuln"
+    },
+    {
+        "input": "display total disk usage by each folder",
+        "output": "du -sh *"
+    },
+    {
+        "input": "count all the lines in notes.txt",
+        "output": "wc -l notes.txt"
+    },
+    {
+        "input": "check the OS version",
+        "output": "uname -a"
+    },
+    {
+        "input": "show my hostname",
+        "output": "hostname"
+    },
+    {
+        "input": "list every installed package",
+        "output": "dpkg -l"
+    },
+    {
+        "input": "partition info",
+        "output": "fdisk -l"
+    },
+    {
+        "input": "connect to my server",
+        "output": "ssh user@server"
+    },
+    {
+        "input": "download with curl from this URL",
+        "output": "curl -O <URL>"
+    },
+    {
+        "input": "zip up the photos folder",
+        "output": "zip -r photos.zip photos"
+    },
+    {
+        "input": "unzip archive.zip",
+        "output": "unzip archive.zip"
+    },
+    {
+        "input": "check network connectivity to google",
+        "output": "ping google.com"
+    },
+    {
+        "input": "run a speed test",
+        "output": "speedtest-cli"
+    },
+    {
+        "input": "find out which ports are open",
+        "output": "nmap localhost"
+    },
+    {
+        "input": "search for 'login' in all .log files",
+        "output": "grep 'login' *.log"
+    },
+    {
+        "input": "kill process 12345",
+        "output": "kill 12345"
+    },
+    {
+        "input": "force kill the application named firefox",
+        "output": "pkill -9 firefox"
+    },
+    {
+        "input": "list all users on this system",
+        "output": "cut -d: -f1 /etc/passwd"
+    },
+    {
+        "input": "backup the database",
+        "output": "mysqldump -u username -p database > backup.sql"
+    },
+    {
+        "input": "restore database from backup.sql",
+        "output": "mysql -u username -p database < backup.sql"
+    },
+    {
+        "input": "get all available updates",
+        "output": "sudo apt update"
+    },
+    {
+        "input": "install nginx",
+        "output": "sudo apt install nginx"
+    },
+    {
+        "input": "uninstall nginx",
+        "output": "sudo apt remove nginx"
+    },
+    {
+        "input": "reload nginx",
+        "output": "sudo systemctl reload nginx"
+    },
+    {
+        "input": "start nginx",
+        "output": "sudo systemctl start nginx"
+    },
+    {
+        "input": "stop nginx",
+        "output": "sudo systemctl stop nginx"
+    },
+    {
+        "input": "restart nginx",
+        "output": "sudo systemctl restart nginx"
+    },
+    {
+        "input": "show me the last 10 commands I ran",
+        "output": "history | tail -n 10"
+    },
+    {
+        "input": "show all open files",
+        "output": "lsof"
+    },
+    {
+        "input": "search recursively for 'TODO' in the project folder",
+        "output": "grep -r 'TODO' project"
+    },
+    {
+        "input": "show inode info of file.txt",
+        "output": "ls -i file.txt"
+    },
+    {
+        "input": "open file.txt in read-only mode with less",
+        "output": "less file.txt"
+    },
+    {
+        "input": "enable the firewall",
+        "output": "sudo ufw enable"
+    },
+    {
+        "input": "disable the firewall",
+        "output": "sudo ufw disable"
+    }
+]
