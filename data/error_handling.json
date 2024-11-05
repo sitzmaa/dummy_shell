@@ -1,0 +1,4 @@
+{
+    "no such file or directory": "The file or directory you are trying to access does not exist. Please check the name and try again.",
+    "permission denied": "It looks like you don't have permission to access this file. Try using 'sudo' or check your permissions."
+}

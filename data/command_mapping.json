@@ -1,0 +1,5 @@
+{
+    "list files": "ls",
+    "current directory": "pwd",
+    "create a folder named": "mkdir"
+}
