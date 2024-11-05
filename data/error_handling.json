@@ -1,190 +1,190 @@
 [
     {
-        "error": "no such file or directory",
-        "message": "The file or directory you are trying to access does not exist. Please check the name and try again."
+        "input": "no such file or directory",
+        "output": "The file or directory you are trying to access does not exist. Please check the name and try again."
     },
     {
-        "error": "permission denied",
-        "message": "It looks like you don't have permission to access this file. Try using 'sudo' or check your permissions."
+        "input": "permission denied",
+        "output": "It looks like you don't have permission to access this file. Try using 'sudo' or check your permissions."
     },
     {
-        "error": "command not found",
-        "message": "The command you entered was not found. Please check the spelling and try again."
+        "input": "command not found",
+        "output": "The command you entered was not found. Please check the spelling and try again."
     },
     {
-        "error": "file exists",
-        "message": "The file you are trying to create already exists. Try using a different name."
+        "input": "file exists",
+        "output": "The file you are trying to create already exists. Try using a different name."
     },
     {
-        "error": "disk full",
-        "message": "The disk is full. Please free up some space and try again."
+        "input": "disk full",
+        "output": "The disk is full. Please free up some space and try again."
     },
     {
-        "error": "invalid argument",
-        "message": "The argument you provided is not valid. Please check the syntax and try again."
+        "input": "invalid argument",
+        "output": "The argument you provided is not valid. Please check the syntax and try again."
     },
     {
-        "error": "operation not permitted",
-        "message": "You don't have the necessary permissions to perform this operation. Try using 'sudo'."
+        "input": "operation not permitted",
+        "output": "You don't have the necessary permissions to perform this operation. Try using 'sudo'."
     },
     {
-        "error": "input/output error",
-        "message": "There was an input/output error. Please check your hardware and try again."
+        "input": "input/output error",
+        "output": "There was an input/output error. Please check your hardware and try again."
     },
     {
-        "error": "network is unreachable",
-        "message": "The network is unreachable. Please check your network connection and try again."
+        "input": "network is unreachable",
+        "output": "The network is unreachable. Please check your network connection and try again."
     },
     {
-        "error": "connection refused",
-        "message": "The connection was refused. Please check if the server is running and try again."
+        "input": "connection refused",
+        "output": "The connection was refused. Please check if the server is running and try again."
     },
     {
-        "error": "host not found",
-        "message": "The specified host was not found. Please check the hostname and try again."
+        "input": "host not found",
+        "output": "The specified host was not found. Please check the hostname and try again."
     },
     {
-        "error": "protocol error",
-        "message": "There was a protocol error. Please check your network settings and try again."
+        "input": "protocol error",
+        "output": "There was a protocol error. Please check your network settings and try again."
     },
     {
-        "error": "no route to host",
-        "message": "There is no route to the specified host. Please check your network configuration and try again."
+        "input": "no route to host",
+        "output": "There is no route to the specified host. Please check your network configuration and try again."
     },
     {
-        "error": "not a directory",
-        "message": "The specified path is not a directory. Please check the path and try again."
+        "input": "not a directory",
+        "output": "The specified path is not a directory. Please check the path and try again."
     },
     {
-        "error": "is a directory",
-        "message": "The specified path is a directory. Please check the path and try again."
+        "input": "is a directory",
+        "output": "The specified path is a directory. Please check the path and try again."
     },
     {
-        "error": "read-only file system",
-        "message": "The file system is read-only. Please check your file system settings and try again."
+        "input": "read-only file system",
+        "output": "The file system is read-only. Please check your file system settings and try again."
     },
     {
-        "error": "file too large",
-        "message": "The file is too large. Please check the file size and try again."
+        "input": "file too large",
+        "output": "The file is too large. Please check the file size and try again."
     },
     {
-        "error": "cannot allocate memory",
-        "message": "There is not enough memory available. Please close some applications and try again."
+        "input": "cannot allocate memory",
+        "output": "There is not enough memory available. Please close some applications and try again."
     },
     {
-        "error": "too many open files",
-        "message": "There are too many open files. Please close some files and try again."
+        "input": "too many open files",
+        "output": "There are too many open files. Please close some files and try again."
     },
     {
-        "error": "device or resource busy",
-        "message": "The device or resource is busy. Please wait and try again."
+        "input": "device or resource busy",
+        "output": "The device or resource is busy. Please wait and try again."
     },
     {
-        "error": "argument list too long",
-        "message": "The argument list is too long. Please shorten the list and try again."
+        "input": "argument list too long",
+        "output": "The argument list is too long. Please shorten the list and try again."
     },
     {
-        "error": "broken pipe",
-        "message": "The connection was broken. Please check your network connection and try again."
+        "input": "broken pipe",
+        "output": "The connection was broken. Please check your network connection and try again."
     },
     {
-        "error": "directory not empty",
-        "message": "The directory is not empty. Please empty the directory and try again."
+        "input": "directory not empty",
+        "output": "The directory is not empty. Please empty the directory and try again."
     },
     {
-        "error": "exec format error",
-        "message": "There was an error in the execution format. Please check the format and try again."
+        "input": "exec format error",
+        "output": "There was an error in the execution format. Please check the format and try again."
     },
     {
-        "error": "illegal byte sequence",
-        "message": "There was an illegal byte sequence. Please check the data and try again."
+        "input": "illegal byte sequence",
+        "output": "There was an illegal byte sequence. Please check the data and try again."
     },
     {
-        "error": "interrupted system call",
-        "message": "The system call was interrupted. Please try again."
+        "input": "interrupted system call",
+        "output": "The system call was interrupted. Please try again."
     },
     {
-        "error": "invalid cross-device link",
-        "message": "There was an invalid cross-device link. Please check the devices and try again."
+        "input": "invalid cross-device link",
+        "output": "There was an invalid cross-device link. Please check the devices and try again."
     },
     {
-        "error": "no space left on device",
-        "message": "There is no space left on the device. Please free up some space and try again."
+        "input": "no space left on device",
+        "output": "There is no space left on the device. Please free up some space and try again."
     },
     {
-        "error": "function not implemented",
-        "message": "The function is not implemented. Please check the function and try again."
+        "input": "function not implemented",
+        "output": "The function is not implemented. Please check the function and try again."
     },
     {
-        "error": "directory quota exceeded",
-        "message": "The directory quota has been exceeded. Please free up some space and try again."
+        "input": "directory quota exceeded",
+        "output": "The directory quota has been exceeded. Please free up some space and try again."
     },
     {
-        "error": "file name too long",
-        "message": "The file name is too long. Please shorten the file name and try again."
+        "input": "file name too long",
+        "output": "The file name is too long. Please shorten the file name and try again."
     },
     {
-        "error": "connection timed out",
-        "message": "The connection timed out. Please check your network connection and try again."
+        "input": "connection timed out",
+        "output": "The connection timed out. Please check your network connection and try again."
     },
     {
-        "error": "illegal seek",
-        "message": "There was an illegal seek. Please check the seek command and try again."
+        "input": "illegal seek",
+        "output": "There was an illegal seek. Please check the seek command and try again."
     },
     {
-        "error": "read-only memory",
-        "message": "The memory is read-only. Please check your memory settings and try again."
+        "input": "read-only memory",
+        "output": "The memory is read-only. Please check your memory settings and try again."
     },
     {
-        "error": "stale file handle",
-        "message": "The file handle is stale. Please check the file and try again."
+        "input": "stale file handle",
+        "output": "The file handle is stale. Please check the file and try again."
     },
     {
-        "error": "address already in use",
-        "message": "The address is already in use. Please check the address and try again."
+        "input": "address already in use",
+        "output": "The address is already in use. Please check the address and try again."
     },
     {
-        "error": "directory not empty",
-        "message": "The directory is not empty. Please remove the contents of the directory and try again."
+        "input": "directory not empty",
+        "output": "The directory is not empty. Please remove the contents of the directory and try again."
     },
     {
-        "error": "disk quota exceeded",
-        "message": "The disk quota has been exceeded. Please free up some space and try again."
+        "input": "disk quota exceeded",
+        "output": "The disk quota has been exceeded. Please free up some space and try again."
     },
     {
-        "error": "file exists",
-        "message": "The file you are trying to create already exists. Try using a different name."
+        "input": "file exists",
+        "output": "The file you are trying to create already exists. Try using a different name."
     },
     {
-        "error": "no buffer space available",
-        "message": "There is no buffer space available. Please free up some space and try again."
+        "input": "no buffer space available",
+        "output": "There is no buffer space available. Please free up some space and try again."
     },
     {
-        "error": "address not available",
-        "message": "The address is not available. Please check the address and try again."
+        "input": "address not available",
+        "output": "The address is not available. Please check the address and try again."
     },
     {
-        "error": "network down",
-        "message": "The network is down. Please check your network connection and try again."
+        "input": "network down",
+        "output": "The network is down. Please check your network connection and try again."
     },
     {
-        "error": "software caused connection abort",
-        "message": "The connection was aborted by the software. Please check your software settings and try again."
+        "input": "software caused connection abort",
+        "output": "The connection was aborted by the software. Please check your software settings and try again."
     },
     {
-        "error": "too many levels of symbolic links",
-        "message": "There are too many levels of symbolic links. Please reduce the number of symbolic links and try again."
+        "input": "too many levels of symbolic links",
+        "output": "There are too many levels of symbolic links. Please reduce the number of symbolic links and try again."
     },
     {
-        "error": "device not configured",
-        "message": "The device is not configured. Please configure the device and try again."
+        "input": "device not configured",
+        "output": "The device is not configured. Please configure the device and try again."
     },
     {
-        "error": "directory quotas not implemented",
-        "message": "Directory quotas are not implemented. Please check your system settings and try again."
+        "input": "directory quotas not implemented",
+        "output": "Directory quotas are not implemented. Please check your system settings and try again."
     },
     {
-        "error": "protocol not supported",
-        "message": "The protocol is not supported. Please check your network settings and try again."
+        "input": "protocol not supported",
+        "output": "The protocol is not supported. Please check your network settings and try again."
     }
 ]

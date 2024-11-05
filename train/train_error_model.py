@@ -1,15 +1,30 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, Trainer, TrainingArguments
-from src.data_loader import load_dataset
+from data_loader import load_dataset
+
+# Add the src directory to the Python path
 
 # Load the tokenizer and model
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+
+# Set the pad token to the EOS token (or you can add a new pad token)
+tokenizer.pad_token = tokenizer.eos_token
+
+# Alternatively, add a new special pad token
+# tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+
 model = GPT2LMHeadModel.from_pretrained('gpt2')
+model.resize_token_embeddings(len(tokenizer))
 
 # Load and tokenize the dataset
 dataset = load_dataset('../data/error_handling.json')
 
 def tokenize_function(examples):
-    return tokenizer(examples['text'], truncation=True, padding='max_length')
+    tokens = tokenizer(examples['text'], truncation=True, padding='max_length', max_length=512)
+    tokens["labels"] = tokens["input_ids"].copy()
+    return tokens
 
 tokenized_dataset = dataset.map(tokenize_function, batched=True)
 

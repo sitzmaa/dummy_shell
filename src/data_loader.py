@@ -1,7 +1,7 @@
 import json
 from datasets import Dataset
 
-def load_training_data(file_path):
+def load_dataset(file_path):
     """
     Load training data from a JSON file and convert it to a Hugging Face Dataset.
 
